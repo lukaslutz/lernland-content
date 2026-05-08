@@ -74,6 +74,14 @@
 - [`about.html`](about.html) — Über Lukas Lutz (Person Schema)
 - [`1. Beschreibung.md`](1.%20Beschreibung.md) — Vollständige App-Doku (1167 Zeilen)
 - [`2. Fragen.md`](2.%20Fragen.md) — Suchanfragen-Katalog (3500+ Anfragen)
+- [`glossar.md`](glossar.md) — 50 Fachbegriffe heilpädagogische Mathematikdidaktik
+- [`lehrplan-21-mapping.md`](lehrplan-21-mapping.md) — LP21-Kompetenzbereiche → Lernland-Aktivitäten
+
+### Pillar-Pages (4 grosse thematische Guides)
+- [`pillars/`](pillars/) — Rechenschwäche, Mathe-Apps, Heilpäd. Didaktik, LP21
+
+### Methoden-Dokumentationen (11 Stück, akademische Tiefe)
+- [`methoden/`](methoden/) — EIS-Prinzip, Teil-Ganzes, Pränumerik, Stellenwert, Diagnostik etc.
 
 ### Blog (287 Artikel)
 - [`blog/`](blog/) — Vollständiger Blog-Index mit 287 Artikeln
