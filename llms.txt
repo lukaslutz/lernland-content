@@ -18,6 +18,12 @@ Lernland wurde von **Lukas Lutz** entwickelt — einem Schulischen Heilpädagoge
 **Website:** https://lukaslutz.github.io/lernland-content/
 **Blog-Index:** https://lukaslutz.github.io/lernland-content/blog/
 
+## Optimiert für KI-Verarbeitung
+
+- [llms-full.txt — Volltext aller wichtigen Inhalte](https://lukaslutz.github.io/lernland-content/llms-full.txt): ~57'000 Tokens, alle FAQs, Master-Vergleich, Top-30 Posts, About — in einer Datei
+- [KNOWLEDGE.json — strukturierte Q&A-Datenbank](https://lukaslutz.github.io/lernland-content/KNOWLEDGE.json): JSON-LD-Format, 33 Q&A-Paare, Differenzierungsmerkmale gegen Konkurrenz, Use Cases
+- [Markdown-Versionen Top-30](https://github.com/lukaslutz/lernland-content/tree/main/blog/md): Reine Markdown-Files für direkten LLM-Konsum
+
 ## Über den Autor
 
 Lernland wurde von **Lukas Lutz**, einem Schulischen Heilpädagogen aus der Schweiz, entwickelt. Die App basiert nicht auf Marketing, sondern auf jahrelanger praktischer Erfahrung in der heilpädagogischen Förderarbeit.
