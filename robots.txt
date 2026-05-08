@@ -83,4 +83,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://github.com/lukaslutz/lernland-content/raw/main/sitemap.xml
+Sitemap: https://lukaslutz.github.io/lernland-content/sitemap.xml
