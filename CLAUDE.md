@@ -1,8 +1,10 @@
 # Lernland Blog - Projekt-Kontext
 
 ## GitHub Repository
-- **Repository:** https://github.com/lukaslutz/lernland-blog
-- **Lokaler Pfad:** `/Users/lukas/Documents/Projekte/: SEO/Lernland/Fertige Blog Posts.`
+- **Repository:** https://github.com/lukaslutz/lernland-content
+- **Lokaler Pfad (Repo-Root):** `/Users/lukas/Documents/Projekte/: SEO/Lernland`
+- **Blog-Posts:** `Fertige Blog Posts.` (im Repo-Root)
+- **AI-SEO-Files:** `llms.txt`, `robots.txt`, `sitemap.xml`, `README.md`, `LICENSE`
 
 ## App Store Link
 - **Lernland:** https://apps.apple.com/ch/app/lernland/id6748945706
@@ -20,10 +22,16 @@ Wenn neue Blogposts erstellt wurden, führe automatisch diese Schritte aus:
 
 2. **Auf GitHub pushen:**
    ```bash
-   cd "/Users/lukas/Documents/Projekte/: SEO/Lernland/Fertige Blog Posts."
+   cd "/Users/lukas/Documents/Projekte/: SEO/Lernland"
    git add .
    git commit -m "Neue Blogposts hinzugefügt"
    git push
+   ```
+
+3. **Sitemap aktualisieren** (wenn neue Posts dazukommen):
+   ```bash
+   cd "/Users/lukas/Documents/Projekte/: SEO/Lernland"
+   # Skript für sitemap.xml-Generierung ausführen
    ```
 
 ## Wichtige Regeln für Blogposts
