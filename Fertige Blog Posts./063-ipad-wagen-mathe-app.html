@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Klaro auf dem iPad-Wagen: Schneller Schüler-Wechsel, Offline-Fähigkeit, Multi-Profil-Support. Die perfekte App für geteilte Schulgeräte.">
+    <meta name="keywords" content="iPad Wagen Schule, geteilte iPads Schüler, iPad Koffer Grundschule, Schulgeräte mehrere Kinder, MDM Lernapp">
+    <title>Klaro auf dem iPad-Wagen | App für geteilte Schulgeräte</title>
+    <link rel="canonical" href="https://klaro.app/blog/ipad-wagen-mathe-app">
+</head>
+<body>
+    <article>
+        <header>
+            <h1>Klaro auf dem iPad-Wagen: Perfekt für geteilte Schulgeräte</h1>
+            <p class="subtitle">Multi-Profil-Support, schneller Wechsel, Offline-Fähigkeit - so funktioniert Klaro im Schulalltag</p>
+        </header>
+
+        <nav class="toc">
+            <h2>Inhalt</h2>
+            <ul>
+                <li><a href="#realitaet">Die Realität: Geteilte Geräte</a></li>
+                <li><a href="#anforderungen">Was eine App können muss</a></li>
+                <li><a href="#klaro">Wie Klaro diese Anforderungen erfüllt</a></li>
+                <li><a href="#einrichten">iPad-Wagen einrichten</a></li>
+                <li><a href="#workflow">Workflow im Unterricht</a></li>
+            </ul>
+        </nav>
+
+        <section id="realitaet">
+            <h2>Die Realität: Nicht jedes Kind hat ein iPad</h2>
+
+            <p>Die wenigsten Schulen haben 1:1-Ausstattung. Stattdessen:</p>
+
+            <ul>
+                <li><strong>iPad-Wagen:</strong> 16-20 Geräte, die sich Klassen teilen</li>
+                <li><strong>iPad-Koffer:</strong> Mobile Einheit für verschiedene Räume</li>
+                <li><strong>Klassensatz:</strong> Ein Set pro Schulhaus, reservierbar</li>
+            </ul>
+
+            <h3>Herausforderungen</h3>
+            <ul>
+                <li>Jedes Kind braucht Zugang zu seinen Daten</li>
+                <li>Profile müssen auf jedem Gerät verfügbar sein</li>
+                <li>Schneller Wechsel zwischen Klassen nötig</li>
+                <li>Offline-Fähigkeit wegen instabilem WLAN</li>
+                <li>IT-Administration muss einfach sein</li>
+            </ul>
+        </section>
+
+        <section id="anforderungen">
+            <h2>Was eine App für geteilte Geräte können muss</h2>
+
+            <h3>1. Mehrere Profile pro Gerät</h3>
+            <p>Nicht jedes Kind bekommt immer dasselbe iPad. Profile müssen auf allen Geräten zugänglich sein.</p>
+
+            <h3>2. Schnelles An- und Abmelden</h3>
+            <p>Keine langen Wartezeiten beim Klassenwechsel. In 30 Sekunden muss das nächste Kind arbeiten können.</p>
+
+            <h3>3. Offline-Funktionalität</h3>
+            <p>20 iPads gleichzeitig im WLAN = oft Probleme. Die App muss ohne Internet funktionieren.</p>
+
+            <h3>4. Cloud-Sync</h3>
+            <p>Fortschritt muss auf allen Geräten verfügbar sein - wenn Kind A heute auf iPad 3 arbeitet und morgen auf iPad 7.</p>
+
+            <h3>5. Automatisches Logout</h3>
+            <p>Kind vergisst Abmelden? Das nächste Kind sollte nicht fremde Profile sehen.</p>
+        </section>
+
+        <section id="klaro">
+            <h2>Wie Klaro diese Anforderungen erfüllt</h2>
+
+            <h3>Multi-Profil-Support</h3>
+            <ul>
+                <li>Unbegrenzt viele Profile pro Gerät</li>
+                <li>Jedes Kind meldet sich mit Klassencode + Name + PIN an</li>
+                <li>Profile werden lokal gespeichert für schnellen Zugriff</li>
+            </ul>
+
+            <h3>Schneller Login</h3>
+            <ol>
+                <li>Klassencode eingeben (oder aus Liste wählen)</li>
+                <li>Namen auswählen</li>
+                <li>PIN eingeben</li>
+                <li>Fertig - unter 30 Sekunden</li>
+            </ol>
+
+            <h3>Vollständige Offline-Funktionalität</h3>
+            <ul>
+                <li>Alle Lernaktivitäten funktionieren ohne Internet</li>
+                <li>Fortschritt wird lokal gespeichert</li>
+                <li>Bei Verbindung: Automatischer Sync</li>
+            </ul>
+
+            <h3>Cloud-Synchronisation</h3>
+            <ul>
+                <li>Arbeitet Kind auf iPad A, ist der Fortschritt auch auf iPad B</li>
+                <li>Firebase-Backend mit atomaren Updates</li>
+                <li>Konfliktauflösung: Server gewinnt</li>
+            </ul>
+
+            <h3>Automatisches Logout</h3>
+            <ul>
+                <li>Nach 2 Minuten im Hintergrund: Automatische Abmeldung</li>
+                <li>Nur aktiv, wenn mehrere Profile auf dem Gerät</li>
+                <li>Verhindert versehentlichen Zugriff auf fremde Profile</li>
+            </ul>
+
+            <h3>Geräte-Import-Code</h3>
+            <p>Spezielle Funktion für iPad-Wagen:</p>
+            <ul>
+                <li>Ein Code für die ganze Klasse</li>
+                <li>Alle Geräte gleichzeitig einrichten</li>
+                <li>Unterscheidet sich vom Schüler-Klassencode</li>
+            </ul>
+        </section>
+
+        <section id="einrichten">
+            <h2>iPad-Wagen für Klaro einrichten</h2>
+
+            <h3>Einmalige Vorbereitung</h3>
+            <ol>
+                <li><strong>Klaro auf allen Geräten installieren</strong>
+                    <ul>
+                        <li>Via MDM (Jamf, Mosyle, etc.) oder manuell</li>
+                        <li>Apple School Manager Integration möglich</li>
+                    </ul>
+                </li>
+                <li><strong>Geräte-Import-Code nutzen</strong>
+                    <ul>
+                        <li>Lehrperson generiert Import-Code im Cockpit</li>
+                        <li>Code auf allen Geräten eingeben</li>
+                        <li>Alle Profile sind sofort verfügbar</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h3>Für jede Klasse</h3>
+            <ol>
+                <li>Lehrperson erstellt Klasse in Klaro</li>
+                <li>Schülerprofile hinzufügen</li>
+                <li>Import-Code an IT oder Stellvertretung weitergeben</li>
+                <li>Code auf allen iPad-Wagen-Geräten eingeben</li>
+            </ol>
+
+            <h3>MDM-Kompatibilität</h3>
+            <p>Klaro funktioniert mit allen gängigen MDM-Lösungen:</p>
+            <ul>
+                <li>Jamf Pro / Jamf School</li>
+                <li>Mosyle</li>
+                <li>Microsoft Intune</li>
+                <li>Apple Business Manager / School Manager</li>
+            </ul>
+        </section>
+
+        <section id="workflow">
+            <h2>Workflow im Unterricht</h2>
+
+            <h3>Klasse 3a kommt dran (9:00)</h3>
+            <ol>
+                <li>iPad-Wagen ins Zimmer rollen</li>
+                <li>Jedes Kind nimmt ein iPad</li>
+                <li>Kinder melden sich mit ihrer Karte an</li>
+                <li>Arbeiten beginnt</li>
+            </ol>
+
+            <h3>Klasse 3b kommt dran (10:00)</h3>
+            <ol>
+                <li>Klasse 3a meldet sich ab (oder automatisches Logout)</li>
+                <li>iPads zurück in den Wagen</li>
+                <li>Wagen zu Klasse 3b</li>
+                <li>Klasse 3b meldet sich an</li>
+                <li>Jeder hat seinen eigenen Fortschritt</li>
+            </ol>
+
+            <h3>Tipps für reibungslosen Ablauf</h3>
+            <ul>
+                <li>Login-Karten laminieren und griffbereit haben</li>
+                <li>Feste "iPad-Nummern" vermeiden - jedes Kind kann jedes iPad nehmen</li>
+                <li>Am Ende der Stunde: "Alle abmelden" als Ritual</li>
+                <li>iPads im Wagen laden lassen</li>
+            </ul>
+        </section>
+
+        <section class="cta">
+            <h2>Perfekt für Ihren iPad-Wagen</h2>
+            <p>Klaro wurde für genau diese Situation entwickelt: Viele Kinder, wenige Geräte, maximale Flexibilität.</p>
+            <a href="https://apps.apple.com/app/klaro" class="button">Klaro testen</a>
+        </section>
+
+        <section class="faq" itemscope itemtype="https://schema.org/FAQPage">
+            <h2>Häufig gestellte Fragen</h2>
+
+            <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 itemprop="name">Was passiert, wenn das WLAN ausfällt?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">Kinder können weiterarbeiten. Alle Aktivitäten funktionieren offline. Der Fortschritt wird lokal gespeichert und synchronisiert, sobald wieder Verbindung besteht.</p>
+                </div>
+            </div>
+
+            <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 itemprop="name">Kann ein Kind das Profil eines anderen öffnen?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">Nur mit dem korrekten PIN. Ohne PIN ist kein Zugriff möglich. Das automatische Logout nach 2 Minuten verhindert zudem, dass ein vergessenes Login offen bleibt.</p>
+                </div>
+            </div>
+
+            <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 itemprop="name">Wie viele Profile passen auf ein iPad?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">Praktisch unbegrenzt. Klaro speichert Profile effizient. Ein iPad kann problemlos Hunderte von Profilen aus verschiedenen Klassen verwalten.</p>
+                </div>
+            </div>
+
+            <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 itemprop="name">Brauche ich IT-Kenntnisse für die Einrichtung?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">Nein. Die Grundinstallation (App herunterladen) ist einfach. Der Geräte-Import-Code ermöglicht schnelles Einrichten ohne IT-Support.</p>
+                </div>
+            </div>
+        </section>
+    
+      <aside class="related-posts" role="region" aria-label="Verwandte Artikel">
+        <h2>Das könnte Sie auch interessieren</h2>
+        <ul>
+          <li><a href="/blog/klassenuebergabe-lehrerwechsel">Klassenübergabe bei Lehrerwechsel</a></li>
+          <li><a href="/blog/fachpersonen-zugang-logopaedie">Zugang für Fachpersonen</a></li>
+          <li><a href="/blog/wochenplan-arbeit-mathe">Klaro für Wochenplan-Arbeit</a></li>
+          <li><a href="/blog/kronen-system-meisterschaft">Das Kronen-System: Meisterschaft feiern</a></li>
+          <li><a href="/blog/login-karten-schueler">Login-Karten für Schüler erstellen</a></li>
+        </ul>
+      </aside>
+
+    
+      <aside class="related-posts" role="region" aria-label="Verwandte Artikel">
+        <h2>Das könnte Sie auch interessieren</h2>
+        <ul>
+          <li><a href="/blog/klassenuebergabe-lehrerwechsel">Klassenübergabe bei Lehrerwechsel</a></li>
+          <li><a href="/blog/fachpersonen-zugang-logopaedie">Zugang für Fachpersonen</a></li>
+          <li><a href="/blog/wochenplan-arbeit-mathe">Klaro für Wochenplan-Arbeit</a></li>
+          <li><a href="/blog/kronen-system-meisterschaft">Das Kronen-System: Meisterschaft feiern</a></li>
+          <li><a href="/blog/login-karten-schueler">Login-Karten für Schüler erstellen</a></li>
+        </ul>
+      </aside>
+
+    
+      <aside class="related-posts" role="region" aria-label="Verwandte Artikel">
+        <h2>Das könnte Sie auch interessieren</h2>
+        <ul>
+          <li><a href="/blog/klassenuebergabe-lehrerwechsel">Klassenübergabe bei Lehrerwechsel</a></li>
+          <li><a href="/blog/fachpersonen-zugang-logopaedie">Zugang für Fachpersonen</a></li>
+          <li><a href="/blog/wochenplan-arbeit-mathe">Klaro für Wochenplan-Arbeit</a></li>
+          <li><a href="/blog/kronen-system-meisterschaft">Das Kronen-System: Meisterschaft feiern</a></li>
+          <li><a href="/blog/login-karten-schueler">Login-Karten für Schüler erstellen</a></li>
+        </ul>
+      </aside>
+
+    
+      <aside class="related-posts" role="region" aria-label="Verwandte Artikel">
+        <h2>Das könnte Sie auch interessieren</h2>
+        <ul>
+          <li><a href="/blog/klassenuebergabe-lehrerwechsel">Klassenübergabe bei Lehrerwechsel</a></li>
+          <li><a href="/blog/fachpersonen-zugang-logopaedie">Zugang für Fachpersonen</a></li>
+          <li><a href="/blog/wochenplan-arbeit-mathe">Klaro für Wochenplan-Arbeit</a></li>
+          <li><a href="/blog/kronen-system-meisterschaft">Das Kronen-System: Meisterschaft feiern</a></li>
+          <li><a href="/blog/login-karten-schueler">Login-Karten für Schüler erstellen</a></li>
+        </ul>
+      </aside>
+
+    
+      <aside class="related-posts" role="region" aria-label="Verwandte Artikel">
+        <h2>Das könnte Sie auch interessieren</h2>
+        <ul>
+          <li><a href="/blog/klassenuebergabe-lehrerwechsel">Klassenübergabe bei Lehrerwechsel</a></li>
+          <li><a href="/blog/fachpersonen-zugang-logopaedie">Zugang für Fachpersonen</a></li>
+          <li><a href="/blog/wochenplan-arbeit-mathe">Klaro für Wochenplan-Arbeit</a></li>
+          <li><a href="/blog/kronen-system-meisterschaft">Das Kronen-System: Meisterschaft feiern</a></li>
+          <li><a href="/blog/login-karten-schueler">Login-Karten für Schüler erstellen</a></li>
+        </ul>
+      </aside>
+
+    </article>
+
+    <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://klaroapp.ch/entity/POST-5e81a3a5",
+      "mainEntityOfPage": "https://klaroapp.ch/blog/ipad-wagen-mathe-app",
+      "url": "https://klaroapp.ch/blog/ipad-wagen-mathe-app",
+      "headline": "Klaro auf dem iPad-Wagen",
+      "datePublished": "2026-03-26",
+      "dateModified": "2026-04-02",
+      "inLanguage": "de-CH",
+      "author": {
+        "@type": "Organization",
+        "name": "Klaro",
+        "url": "https://klaroapp.ch"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Klaro",
+        "url": "https://klaroapp.ch"
+      },
+      "about": {
+        "@type": "SoftwareApplication",
+        "name": "Klaro",
+        "operatingSystem": "iOS",
+        "applicationCategory": "EducationalApplication"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://klaroapp.ch/blog/ipad-wagen-mathe-app#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Start",
+          "item": "https://klaroapp.ch/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://klaroapp.ch/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Klaro auf dem iPad-Wagen"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</body>
+</html>
