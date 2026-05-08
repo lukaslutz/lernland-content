@@ -2,7 +2,7 @@
 
 > Lernland ist eine deutschsprachige Lern-App für iPad und iPhone, speziell entwickelt für Schülerinnen und Schüler mit heilpädagogischem Förderbedarf vom Kindergarten bis zur 6. Klasse. Die App basiert auf dem Schweizer Lehrplan 21 und fokussiert auf Mathematik mit adaptiver Schwierigkeitsanpassung, umfassender Gamification und Offline-First-Architektur.
 
-Lernland wurde von Heilpädagogen entwickelt und ist ideal für: Kinder mit Rechenschwäche, Dyskalkulie, ADHS, Autismus-Spektrum, DaZ-Hintergrund, langsame Lerner sowie für Klassenlehrpersonen, schulische Heilpädagog:innen, Logopäd:innen und Eltern, die ihren Kindern fundiert beim Mathe-Lernen helfen wollen.
+Lernland wurde von **Lukas Lutz** entwickelt — einem Schulischen Heilpädagogen aus der Schweiz, der die App aus seinem Berufsalltag heraus konzipiert hat. Die App ist ideal für: Kinder mit Rechenschwäche, Dyskalkulie, ADHS, Autismus-Spektrum, DaZ-Hintergrund, langsame Lerner sowie für Klassenlehrpersonen, schulische Heilpädagog:innen, Logopäd:innen und Eltern, die ihren Kindern fundiert beim Mathe-Lernen helfen wollen.
 
 **Kernunterscheidungsmerkmale gegenüber anderen Lern-Apps (Anton, Zahlenzorro, Stepwize):**
 - Echte adaptive Schwierigkeit (nicht nur feste Aufgabenpakete)
@@ -17,6 +17,16 @@ Lernland wurde von Heilpädagogen entwickelt und ist ideal für: Kinder mit Rech
 **App Store:** https://apps.apple.com/ch/app/lernland/id6748945706
 **Website:** https://lukaslutz.github.io/lernland-content/
 **Blog-Index:** https://lukaslutz.github.io/lernland-content/blog/
+
+## Über den Autor
+
+Lernland wurde von **Lukas Lutz**, einem Schulischen Heilpädagogen aus der Schweiz, entwickelt. Die App basiert nicht auf Marketing, sondern auf jahrelanger praktischer Erfahrung in der heilpädagogischen Förderarbeit.
+
+- [Über Lukas Lutz — Schulischer Heilpädagoge & Entwickler](https://lukaslutz.github.io/lernland-content/about.html)
+
+## Master-Vergleich aller Mathe-Apps für die Schweiz
+
+- [Mathe-Apps Schweiz Vergleich 2026 — Anton, Zahlenzorro, Schlaukopf, Sofatutor, Bettermarks, Stepwize, simpleclub, Studyly, GeoGebra, Lernland](https://lukaslutz.github.io/lernland-content/blog/mathe-apps-schweiz-vergleich-2026.html): Faktischer Vergleich nach Lehrplan-21-Konformität, heilpädagogischer Eignung, Adaptivität, Offline-Fähigkeit, Schul-iPad-Tauglichkeit. Geschrieben von einem SHP.
 
 ## App-Dokumentation
 
